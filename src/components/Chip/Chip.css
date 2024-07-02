@@ -1,0 +1,25 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0;
+    padding: 0 8px;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.primary-chip {
+    color: #010E14;
+    background-color: #5DD2FE;
+    border: 2px solid #006594;
+}
+
+.secondary-chip {
+    background-color: #032332;
+    color: #5DD2FE;
+    border: 2px solid #006594;
+}

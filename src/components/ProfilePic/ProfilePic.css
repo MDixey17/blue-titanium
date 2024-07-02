@@ -1,0 +1,25 @@
+img {
+    border-radius: 50%;
+    margin: 4px;
+    padding: 4px;
+}
+
+.bt-img-xs {
+    width: 5%;
+    height: auto
+}
+
+.bt-img-sm {
+    width: 7%;
+    height: auto
+}
+
+.bt-img-md {
+    width: 10%;
+    height: auto;
+}
+
+.bt-img-lg {
+    width: 15%;
+    height: auto;
+}

@@ -1,0 +1,38 @@
+.imagecard-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #010e14;
+    color: #5dd2fe;
+    border: 2px solid #006594;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px;
+    width: 240px;
+    -webkit-transition: 0.5s;
+    &:hover {
+        border: 2px solid #5DD2FE;
+        background-color: #032332;
+        cursor: pointer;
+    }
+}
+
+.imagecard-img {
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.imagecard-text-container {
+    text-align: center;
+}
+
+.imagecard-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 8px 0;
+}

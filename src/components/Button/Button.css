@@ -1,0 +1,42 @@
+button {
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0;
+    height: 40px;
+    width: auto;
+    -webkit-transition: 0.5s;
+}
+
+.primary-button {
+    color: #010E14;
+    background-color: #5DD2FE;
+    border: 2px solid #006594;
+
+    &:hover {
+        background-color: #3d8daa;
+        cursor: pointer;
+    }
+}
+
+.secondary-button {
+    background-color: #032332;
+    color: #5DD2FE;
+    border: 2px solid #006594;
+
+    &:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+}
+
+.delete-button {
+    background-color: #032332;
+    color: #ee2b2b;
+    border: 2px solid #ee2b2b;
+
+    &:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+}
