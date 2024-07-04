@@ -17,6 +17,7 @@ _Author:_ Matthew Dixey
   - [Navbar](#navbar)
   - [ProfilePic](#profilepic)
   - [Section](#section)
+  - [Spinner](#spinner)
 - [Color Key](#color-key)
 - [Additional Resources](#additional-resources)
 
