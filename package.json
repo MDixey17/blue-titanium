@@ -1,7 +1,7 @@
 {
   "name": "blue-titanium-ui",
-  "version": "1.0.0",
-  "description": "A blue titanium themed component library for React projects",
+  "version": "1.0.1",
+  "description": "A blue titanium themed component library for React projects.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",

@@ -84,6 +84,10 @@ Sometimes we need a quick way to display an individual's image. Luckily, this co
 
 The `<Section />` is intended to be a container for the `Flexbox` CSS API. Quickly add your items as children to this component, provide the correct props, and most of the heavy lifting is done.
 
+### Spinner
+
+The `<Spinner />` component is intended to be used as a loading indicator when loading a webpage or making an API call. Utilize the three sizes (`sm`, `md`, and `lg`) to fit your needs.
+
 ## Color Key
 
 If you are interested in using the hexadecimal values for the colors included in this project, you can find them here!
