@@ -1,9 +1,11 @@
 {
   "name": "blue-titanium-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A blue titanium themed component library for React projects.",
   "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
   "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
@@ -13,6 +15,7 @@
   },
   "author": "Matt Dixey",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.5.0",
     "@rollup/plugin-commonjs": "^26.0.1",
@@ -36,5 +39,9 @@
     "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^8.1.9",
     "typescript": "^5.4.5"
-  }
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "keywords": ["blue", "component", "library", "ui"]
 }

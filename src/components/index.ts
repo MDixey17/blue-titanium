@@ -1,9 +1,9 @@
-export * from "./Button";
-export * from "./Chip";
-export * from "./Heading";
-export * from "./ImageCard";
-export * from "./Input";
-export * from "./ListCard";
-export * from "./Navbar";
-export * from "./ProfilePic";
-export * from "./Section";
+export { default as Button } from "./Button";
+export { default as Chip } from "./Chip";
+export { default as Heading } from "./Heading";
+export { default as ImageCard } from "./ImageCard";
+export { default as Input } from "./Input";
+export { default as ListCard } from "./ListCard";
+export { default as Navbar } from "./Navbar";
+export { default as ProfilePic } from "./ProfilePic";
+export { default as Section } from "./Section";
