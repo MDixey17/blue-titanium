@@ -1,7 +1,6 @@
 import React from "react";
 import ProfilePic from "./ProfilePic";
 import { StoryFn, Meta } from "@storybook/react";
-import LandoNorris from "./examples/lando.jpg";
 
 export default {
   title: "BlueTitanium/ProfilePic",
@@ -13,27 +12,27 @@ const Template: StoryFn<typeof ProfilePic> = (args) => <ProfilePic {...args} />;
 export const ExtraSmall = Template.bind({});
 ExtraSmall.args = {
   size: "xs",
-  img: LandoNorris,
+  img: "",
   altText: "Lando Norris",
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: "sm",
-  img: LandoNorris,
+  img: "",
   altText: "Lando Norris",
 };
 
 export const Medium = Template.bind({});
 Medium.args = {
   size: "md",
-  img: LandoNorris,
+  img: "",
   altText: "Lando Norris",
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: "lg",
-  img: LandoNorris,
+  img: "",
   altText: "Lando Norris",
 };
