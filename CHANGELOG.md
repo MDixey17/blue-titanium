@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Bug fix for border radius styling applied to all `<div />` components.
+
 ## 1.0.2
 
 - Resolve rollup and package issues.
