@@ -1,9 +1,16 @@
-import React from "react";
-import { ProfilePicProps } from "./ProfilePic.types";
-import "./ProfilePic.css";
+import React from "react"
+import { ProfilePicProps } from "./ProfilePic.types"
+import "./ProfilePic.css"
 
-const ProfilePic = ({ size, img, altText }: ProfilePicProps) => {
-  return <img className={`bt-img-${size}`} src={img} alt={altText} />;
-};
+const ProfilePic = ({
+  size = "md",
+  img,
+  altText = "",
+  className = "",
+}: ProfilePicProps) => {
+  return (
+    <img className={`bt-img-${size} ${className}`} src={img} alt={altText} />
+  )
+}
 
-export default ProfilePic;
+export default ProfilePic

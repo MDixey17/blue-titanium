@@ -1,13 +1,18 @@
-import React from "react";
-import { ButtonProps } from "./Button.types";
-import "./Button.css";
+import React from "react"
+import { ButtonProps } from "./Button.types"
+import "./Button.css"
 
-const Button = ({ onClick, type, children }: ButtonProps) => {
+const Button = ({
+  onClick = () => {},
+  type,
+  children,
+  className = "",
+}: ButtonProps) => {
   return (
-    <button className={`${type}-button`} onClick={(event) => onClick(event)}>
+    <button className={`${type}-button ${className}`} onClick={() => onClick()}>
       {children}
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

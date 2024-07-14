@@ -3,23 +3,16 @@
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     min-height: 1%;
-    -webkit-transition: 0.5s;
 }
 
 .bt-s-primary {
     background-color: #0C1921;
     color: #E6E6E6;
-    &:hover {
-        background-color: #032332;
-    }
 }
 
 .bt-s-secondary {
     color: #0C1921;
     background-color: #E6E6E6;
-    &:hover {
-        background-color: #CCCCCC;
-    }
 }
 
 .bt-s-divider {

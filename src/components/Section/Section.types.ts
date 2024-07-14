@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
+import { ReactNode } from "react"
 
-type SectionDirectionType = "row" | "row-reverse" | "column" | "column-reverse";
+type SectionDirectionType = "row" | "row-reverse" | "column" | "column-reverse"
 
 type SectionJustifyType =
   | "flex-start"
@@ -8,7 +8,7 @@ type SectionJustifyType =
   | "center"
   | "space-between"
   | "space-around"
-  | "space-evenly";
+  | "space-evenly"
 
 type SectionAlignType =
   | "flex-start"
@@ -16,13 +16,14 @@ type SectionAlignType =
   | "center"
   | "stretch"
   | "space-between"
-  | "space-around";
+  | "space-around"
 
 export interface SectionProps {
-  direction: SectionDirectionType;
-  justify: SectionJustifyType;
-  align: SectionAlignType;
-  isPrimary: boolean;
-  divider: boolean;
-  children: ReactNode;
+  direction?: SectionDirectionType
+  justify?: SectionJustifyType
+  align?: SectionAlignType
+  isPrimary?: boolean
+  divider?: boolean
+  children: ReactNode
+  className?: string
 }
