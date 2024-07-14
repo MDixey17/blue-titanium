@@ -1,9 +1,10 @@
-import { BaseSyntheticEvent, ReactNode } from "react";
+import { ReactNode } from "react"
 
-type ButtonType = "primary" | "secondary" | "delete";
+type ButtonType = "primary" | "secondary" | "delete"
 
 export interface ButtonProps {
-  onClick: (event: BaseSyntheticEvent) => void;
-  type: ButtonType;
-  children: ReactNode;
+  onClick: () => void
+  type: ButtonType
+  children: ReactNode
+  className?: string
 }

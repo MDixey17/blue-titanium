@@ -1,18 +1,19 @@
-import React from "react";
-import { SectionProps } from "./Section.types";
-import "./Section.css";
+import React from "react"
+import { SectionProps } from "./Section.types"
+import "./Section.css"
 
 const Section = ({
-  align,
+  align = "flex-start",
   children,
-  direction,
-  divider,
-  isPrimary,
-  justify,
+  direction = "row",
+  divider = false,
+  isPrimary = false,
+  justify = "flex-start",
+  className = "",
 }: SectionProps) => {
   return (
     <div
-      className={`bt-section ${isPrimary ? "bt-s-primary" : "bt-s-secondary"} ${divider ? "bt-s-divider" : ""}`}
+      className={`bt-section ${isPrimary ? "bt-s-primary" : "bt-s-secondary"} ${divider ? "bt-s-divider" : ""} ${className}`}
       style={{
         justifyContent: justify,
         flexDirection: direction,
@@ -23,7 +24,7 @@ const Section = ({
     >
       {children}
     </div>
-  );
-};
+  )
+}
 
-export default Section;
+export default Section

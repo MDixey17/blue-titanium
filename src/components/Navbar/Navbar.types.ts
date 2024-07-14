@@ -1,7 +1,8 @@
-import { ReactNode } from "react";
+import { ReactNode } from "react"
 
 export interface NavbarProps {
-  left: ReactNode; // Logo should be here!
-  middle: ReactNode;
-  right: ReactNode;
+  left: ReactNode // Logo should be here!
+  middle: ReactNode
+  right: ReactNode
+  className?: string
 }

@@ -1,5 +1,6 @@
-type SpinnerSizeType = "sm" | "md" | "lg";
+type SpinnerSizeType = "sm" | "md" | "lg"
 
 export interface SpinnerProps {
-  size: SpinnerSizeType;
+  size?: SpinnerSizeType
+  className?: string
 }

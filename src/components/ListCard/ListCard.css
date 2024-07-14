@@ -54,3 +54,15 @@
     margin: 0;
     padding: 0;
 }
+
+.lc-space-sm {
+    margin: 4px 0;
+}
+
+.lc-space-md {
+    margin: 8px 0;
+}
+
+.lc-space-lg {
+    margin: 12px 0;
+}

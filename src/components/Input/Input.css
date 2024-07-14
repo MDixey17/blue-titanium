@@ -1,21 +1,37 @@
-input {
-    border-radius: 8px;
-    border: 2px solid #006594;
-    min-height: 24px;
-    -webkit-transition: 0.5s;
-    outline: none;
+.bt-input {
+    align-content: center;
 
-    ::placeholder {
+    input {
+        border-radius: 8px;
+        border: 2px solid #006594;
+        min-height: 24px;
+        -webkit-transition: 0.5s;
+        outline: none;
+    
+        ::placeholder {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    
+    input:focus {
+        border: 2px solid #5DD2FE;
+    }
+    
+    input[type="date"] {
         font-family: Arial, Helvetica, sans-serif;
     }
-}
 
-input:focus {
-    border: 2px solid #5DD2FE;
-}
+    input[type="checkbox"] {
+        vertical-align: middle;
+        min-height: 16px;
+        min-width: 16px;
+    }
 
-input[type="date"] {
-    font-family: Arial, Helvetica, sans-serif;
+    .bt-checkbox-label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
 }
 
 .text-label {
@@ -27,7 +43,6 @@ input[type="date"] {
     label {
         font-weight: 600;
         margin-left: 4px;
-        height: 28px;
         font-size: 14px;
     }
 }

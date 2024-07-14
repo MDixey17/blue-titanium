@@ -1,4 +1,5 @@
 export interface ImageCardProps {
-  imgPath: string;
-  text: string;
+  imgPath: string
+  text: string
+  className?: string
 }

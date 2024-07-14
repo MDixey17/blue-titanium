@@ -7,7 +7,7 @@
     margin: 8px 0;
     padding: 0 8px;
     height: 40px;
-    width: auto;
+    width: fit-content;
     text-align: center;
     line-height: 40px;
 }
