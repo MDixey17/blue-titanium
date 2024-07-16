@@ -7,9 +7,14 @@ const ProfilePic = ({
   img,
   altText = "",
   className = "",
+  addHover = false,
 }: ProfilePicProps) => {
   return (
-    <img className={`bt-img-${size} ${className}`} src={img} alt={altText} />
+    <img
+      className={`bt-image bt-img-${size} ${addHover ? "bt-img-hover" : ""} ${className}`}
+      src={img}
+      alt={altText}
+    />
   )
 }
 
