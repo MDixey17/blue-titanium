@@ -1,3 +1,7 @@
+## 1.0.6
+
+- Update `<Section />` component to have `flexWrap` be an optional prop.
+
 ## 1.0.5
 
 - Update `<ProfilePic />` component

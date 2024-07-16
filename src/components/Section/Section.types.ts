@@ -26,4 +26,5 @@ export interface SectionProps {
   divider?: boolean
   children: ReactNode
   className?: string
+  wrap?: "wrap" | "nowrap"
 }

@@ -10,6 +10,7 @@ const Section = ({
   isPrimary = false,
   justify = "flex-start",
   className = "",
+  wrap = "nowrap",
 }: SectionProps) => {
   return (
     <div
@@ -19,7 +20,7 @@ const Section = ({
         flexDirection: direction,
         alignContent: align,
         alignItems: align,
-        flexWrap: "nowrap",
+        flexWrap: wrap,
       }}
     >
       {children}
