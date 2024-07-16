@@ -1,3 +1,11 @@
+## 1.0.5
+
+- Update `<ProfilePic />` component
+  - Use `px` width instead of `%`
+  - Add `hover` prop to have the component react to hover state
+- Update `<Navbar />` component to have a bottom border
+- Update `<ImageCard />` component to have a minimum width
+
 ## 1.0.4
 
 - Add default values for each component.

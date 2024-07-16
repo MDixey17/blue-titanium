@@ -10,7 +10,7 @@
     font-size: 16px;
     font-weight: 600;
     margin: 16px;
-    width: 240px;
+    min-width: 240px;
     -webkit-transition: 0.5s;
     &:hover {
         border: 2px solid #5DD2FE;
@@ -20,7 +20,7 @@
 }
 
 .imagecard-img {
-    width: 220px;
+    min-width: 220px;
     height: auto;
     border-radius: 8px;
     margin-top: 8px;

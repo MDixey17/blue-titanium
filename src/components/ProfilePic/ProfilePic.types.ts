@@ -5,4 +5,5 @@ export interface ProfilePicProps {
   img: string
   altText?: string
   className?: string
+  addHover?: boolean
 }
