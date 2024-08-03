@@ -5,7 +5,7 @@ import "./Heading.css"
 const Heading = ({
   size = "md",
   isBlue = false,
-  children,
+  children = <></>,
   className = "",
 }: HeadingProps) => {
   return (

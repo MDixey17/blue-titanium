@@ -1,3 +1,12 @@
+## 1.0.7
+
+- Update components to have optional props. Components affected:
+  - Button
+  - Chip
+  - Heading
+  - Input
+  - Section
+
 ## 1.0.6
 
 - Update `<Section />` component to have `flexWrap` be an optional prop.

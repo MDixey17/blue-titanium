@@ -4,7 +4,7 @@ type InputType = "text" | "password" | "date" | "checkbox"
 
 export interface InputProps {
   label?: string
-  type: InputType
+  type?: InputType
   value?: string
   onUpdate?: (event: BaseSyntheticEvent) => void
   className?: string

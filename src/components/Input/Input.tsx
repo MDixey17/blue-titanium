@@ -4,7 +4,7 @@ import "./Input.css"
 
 const Input = ({
   label = "",
-  type,
+  type = "text",
   value = "",
   onUpdate = (event: BaseSyntheticEvent) => {},
   className = "",
