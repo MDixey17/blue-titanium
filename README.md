@@ -20,6 +20,7 @@ _Author:_ Matthew Dixey
   - [Spinner](#spinner)
 - [Color Key](#color-key)
 - [Additional Resources](#additional-resources)
+- [Support Me!](#support-me)
 
 ## Installation
 
@@ -62,11 +63,11 @@ Four types are currently supported with the `<Input />` component: `text`, `pass
 Similar to the [ImageCard](#imagecard) component, you can use this component to encapsulate a set of data and give it a title. The `data` prop needs to be exactly as follows. Otherwise, the component will not function as intended.
 
 ```javascript
-[
+;[
   ["left1", "right1"],
   ["left2", "right2"],
   ["left3", "right3"],
-];
+]
 ```
 
 The `data` prop needs to be an array of arrays that are of length 2 with the data being either `string` or `number`.
@@ -117,3 +118,7 @@ red-one = #EE2B2B
 
 - [Tutorial](https://blog.logrocket.com/how-to-build-component-library-react-typescript/)
   - I followed this tutorial with building and deploying this component library.
+
+## Support Me!
+
+Support me on [Patreon](https://www.patreon.com/titanhawk17)!

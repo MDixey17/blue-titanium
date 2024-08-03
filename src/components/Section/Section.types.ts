@@ -24,7 +24,7 @@ export interface SectionProps {
   align?: SectionAlignType
   isPrimary?: boolean
   divider?: boolean
-  children: ReactNode
+  children?: ReactNode
   className?: string
   wrap?: "wrap" | "nowrap"
 }

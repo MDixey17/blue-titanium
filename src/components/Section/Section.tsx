@@ -4,7 +4,7 @@ import "./Section.css"
 
 const Section = ({
   align = "flex-start",
-  children,
+  children = <></>,
   direction = "row",
   divider = false,
   isPrimary = false,

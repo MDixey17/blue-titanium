@@ -4,8 +4,8 @@ import "./Button.css"
 
 const Button = ({
   onClick = () => {},
-  type,
-  children,
+  type = "primary",
+  children = <></>,
   className = "",
 }: ButtonProps) => {
   return (
