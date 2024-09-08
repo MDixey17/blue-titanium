@@ -1,0 +1,8 @@
+.bt-codetext {
+    background-color: #4A5A67;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E6E6E6;
+    padding: 2px 4px;
+    border-radius: 4px;
+    width: fit-content;
+}
