@@ -1,0 +1,65 @@
+.bt-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.bt-toggle-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.bt-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #CCCCCC;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 24px;
+}
+
+.bt-toggle-slider::before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 3px;
+    background: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.bt-toggle-input:checked + .bt-toggle-slider {
+    background-color: #5DD2FE;
+}
+
+.bt-toggle-input:focus + .bt-toggle-slider {
+    box-shadow: 0 0 1px #5DD2FE;
+}
+
+.bt-toggle-input:checked + .bt-toggle-slider::before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+
+.bt-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .bt-toggle-label {
+        font-weight: 600;
+        margin-left: 2px;
+        font-size: 14px;
+    }
+}
