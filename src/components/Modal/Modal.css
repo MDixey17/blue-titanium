@@ -1,0 +1,60 @@
+.bt-modal {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(12, 15, 8, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E6E6E6;
+}
+
+.bt-modal-content {
+    background-color: #032332;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #4A5A67;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: topanimation;
+    animation-duration: 0.4s;
+}
+
+.bt-modal-close {
+    color: #5DD2FE;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    -webkit-transition: 0.5s;
+}
+
+.bt-modal-close:hover,
+.bt-modal-close:focus {
+    color: #006594;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bt-modal-body {
+    padding: 2px 16px;
+}
+
+.bt-modal-header {
+    padding: 2px 16px;
+    background-color: #032332;
+    color: #5DD2FE;
+}
+
+@keyframes topanimation {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
