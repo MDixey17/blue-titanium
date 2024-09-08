@@ -1,3 +1,15 @@
+## 1.1.0
+
+- Add new components
+  - Card
+  - CodeText
+  - Divider
+  - HighlightText
+  - Modal
+  - Statistic
+  - Toggle
+- Redesign README to be more friendly and approachable
+
 ## 1.0.7
 
 - Update components to have optional props. Components affected:

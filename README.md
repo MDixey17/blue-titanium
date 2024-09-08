@@ -1,94 +1,83 @@
-# blue-titanium-ui
+# Blue Titanium UI
 
-The Blue Titanium component library for React JavaScript/TypeScript projects.
+![NPM Version](https://img.shields.io/npm/v/blue-titanium-ui)
+![NPM Downloads](https://img.shields.io/npm/dm/blue-titanium-ui)
 
-_Author:_ Matthew Dixey
+Blue Titanium UI is a React component library focused around a modern presentation of webpage elements, mostly detailed in the color blue. The components provided are intended to be used immediately after installation to rapidly create dynamic and functional web applications in an efficient manner.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Components](#components)
-  - [Button](#button)
-  - [Chip](#chip)
-  - [Heading](#heading)
-  - [ImageCard](#imagecard)
-  - [Input](#input)
-  - [ListCard](#listcard)
-  - [Navbar](#navbar)
-  - [ProfilePic](#profilepic)
-  - [Section](#section)
-  - [Spinner](#spinner)
+- [Examples](#examples)
+- [Changelog](#changelog)
+- [License](#license)
+- [Support](#support)
 - [Color Key](#color-key)
-- [Additional Resources](#additional-resources)
-- [Support Me!](#support-me)
 
 ## Installation
 
-To add this component library to your project, run the follow command in your terminal:
+To add this component library to your project, run the following command in your terminal:
 
 ```sh
-npm install blue-titanium-ui
+npm i blue-titanium-ui
 ```
 
 ## Components
 
 Listed here is a full list of available components to utilize in your React project.
 
-### Button
+- Button
+  - Standard, but decorative HTML buttons to allow for user interactions.
+  - There are three button types available for use: primary, secondary, and delete.
+- Card
+  - A standard container to isolate pieces of information.
+- Chip
+  - A smaller container intended to include content such as tags and keywords.
+- CodeText
+  - A component intended to allow for visualizing code on a webpage.
+- Divider
+  - A standard horizontal divider allowing for separating paragraphs of text in a visually pleasing manner.
+- Heading
+  - A decorated HTML header component, compatiable with various sizing options to fit your needs.
+- HighlightText
+  - A component intended to allow for high-contrast text on a webpage.
+- ImageCard
+  - Similar to the Card component, but more limited in its applications to contain an image with a caption.
+- Input
+  - Standard HTML input components.
+  - As of the latest version, only text, password, date, and checkbox input types are supported.
+- ListCard
+  - Similar to the Card component, but more intended for the display of key-value pair information.
+- Modal
+  - A component intended to hover over all other components to alert users of important interactions and messages before proceeding.
+- Navbar
+  - A standard component to allow for quickly creating a responsive navigation bar at the top of a webpage.
+  - Responsive CSS styling is in place to handle various screen sizes.
+  - When applying to your project, utilize the left, center, and right props to automatically space out the components. Ideally, the logo or name of your application should be assigned to the `left` prop.
+- ProfilePic
+  - A quick-to-access component to display a profile picture on a webpage, compatiable with various sizing options to fit your needs.
+- Section
+  - A flex-box container to quickly implement into your project without having to create the component yourself.
+  - Just insert your components as children of the Section, pass the appropriate styling props, and Blue Titanium UI handles the rest.
+- Spinner
+  - A standard loading icon equipped with an infinite animation. Utilize this when calling asynchronous functions.
+- Statistic
+  - A small collection of components intended to display changes in a numerical value.
+- Toggle
+  - A standard toggle component to indicate a true or false value.
 
-There are 3 different styles for the `<Button />` component to use in your project: `primary`, `secondary`, and `delete`. The way in which you utilize these different styles is entirely up to you.
+## Changelog
 
-### Chip
+With each update, the [changelog](https://github.com/MDixey17/blue-titanium/blob/main/CHANGELOG.md) is updated to provide a quick overview of changes.
 
-There are 2 different styles for the `<Chip />` component to use in your project: `primary` and `secondary`. The way in which you utilize these different styles is entirely up to you.
+## License
 
-Common uses for this component are listing tags or key pieces of information about a page.
+This project is licensed under the terms of the [MIT license](https://github.com/MDixey17/blue-titanium/blob/main/LICENSE).
 
-### Heading
+## Support
 
-There are several different sizes for this component to fit your different needs. You can also use the blue color that is primarily used throughout this library by passing the `isBlue` prop.
-
-Common uses for this component are displaying it at the top of a page as a title.
-
-### ImageCard
-
-This component is designed to encapsulate an image and give it a caption underneath, but in a small compact manner. Think of this component like a trading card and how it can show a thumbnail and a title in one component.
-
-### Input
-
-Four types are currently supported with the `<Input />` component: `text`, `password`, `date`, and `checkbox`. Utilize this to provide areas for users to input data into your application.
-
-### ListCard
-
-Similar to the [ImageCard](#imagecard) component, you can use this component to encapsulate a set of data and give it a title. The `data` prop needs to be exactly as follows. Otherwise, the component will not function as intended.
-
-```javascript
-;[
-  ["left1", "right1"],
-  ["left2", "right2"],
-  ["left3", "right3"],
-]
-```
-
-The `data` prop needs to be an array of arrays that are of length 2 with the data being either `string` or `number`.
-
-### Navbar
-
-This library provides a `<Navbar />` component that can be imported into your project. Three different sections of the navigation bar are supported: `left`, `middle`, and `right`. The only catch is that you need to pass the components (or `ReactNode` object) to the props `left`, `middle`, and `right`.
-
-Mobile support is also provided with this component, saving you time from those annoying `@media` queries and styling.
-
-### ProfilePic
-
-Sometimes we need a quick way to display an individual's image. Luckily, this component just requires an image path, alternate text, and a size, and the rest is taken care of.
-
-### Section
-
-The `<Section />` is intended to be a container for the `Flexbox` CSS API. Quickly add your items as children to this component, provide the correct props, and most of the heavy lifting is done.
-
-### Spinner
-
-The `<Spinner />` component is intended to be used as a loading indicator when loading a webpage or making an API call. Utilize the three sizes (`sm`, `md`, and `lg`) to fit your needs.
+Support me on [Patreon](https://www.patreon.com/titanhawk17)!
 
 ## Color Key
 
@@ -111,14 +100,5 @@ BLACK
 black-one = #0C1921
 
 RED
-red-one = #EE2B2B
+red-one = #EE2B2B /* Used with the delete button */
 ```
-
-## Additional Resources
-
-- [Tutorial](https://blog.logrocket.com/how-to-build-component-library-react-typescript/)
-  - I followed this tutorial with building and deploying this component library.
-
-## Support Me!
-
-Support me on [Patreon](https://www.patreon.com/titanhawk17)!

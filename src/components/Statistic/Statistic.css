@@ -1,0 +1,44 @@
+.bt-stat {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt-stat-delta-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.bt-stat-delta-green {
+    color: rgb(9, 214, 9);
+}
+
+.bt-stat-delta-red {
+    color: #EE2B2B;
+}
+
+.bt-stat-delta-green,
+.bt-stat-delta-red {
+    font-weight: bold;
+    margin: 0;
+}
+
+.bt-stat-time {
+    padding-left: 6px;
+    margin: 0;
+}
+
+.bt-stat-value {
+    font-size: 32px;
+    margin: 4px 0;
+    font-weight: 600;
+}
+
+.bt-stat-label,
+.bt-stat-delta-green,
+.bt-stat-delta-red,
+.bt-stat-time {
+    font-size: 18px;
+}
