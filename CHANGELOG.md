@@ -1,3 +1,8 @@
+## 1.1.1
+
+- Fix documentation
+- Deploy new components to `dist` folder
+
 ## 1.1.0
 
 - Add new components

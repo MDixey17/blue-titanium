@@ -67,6 +67,12 @@ Listed here is a full list of available components to utilize in your React proj
 - Toggle
   - A standard toggle component to indicate a true or false value.
 
+## Examples
+
+The following list is a collection of verified projects that use the Blue Titanium UI component library:
+
+- [F1 Insights Hub](https://mdixey17.github.io/f1-insights-hub/)
+
 ## Changelog
 
 With each update, the [changelog](https://github.com/MDixey17/blue-titanium/blob/main/CHANGELOG.md) is updated to provide a quick overview of changes.
