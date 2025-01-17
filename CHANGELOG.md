@@ -1,3 +1,7 @@
+## 1.1.2
+
+- Resolve CVEs
+
 ## 1.1.1
 
 - Fix documentation
